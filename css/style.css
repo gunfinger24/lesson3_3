@@ -1,0 +1,174 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol {
+	list-style-type: circle;
+}
+a,
+a:visited {
+	text-decoration: none;
+	color: #6f6f6f;
+}
+a:hover {
+	text-decoration: underline;
+	color: #6f6f6f;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+/* Анатомия */
+/* 
+
+селектор {
+	css парамтр;
+}
+
+/* 
+/* CSS параметр */
+*
+/*css свойство: значение свойства; */
+*
+
+/* Селекторы */
+
+/* Селектор тега */
+
+/* 
+имя тега{
+	css параметр;
+	css параметр;
+	css параметр;
+}
+*/
+
+/* Пример селектора тега */
+
+
+/*span{*/
+	/* Обратились ко ВСЕМ тегам SPAN на странице */
+	/*color: blue;*/
+
+
+
+
+	/*color: darkgreen;*/
+
+
+/*.text {
+	/* Обпатились к объектам с классом 	text на странице */
+	/*color: rgb(53, 58, 43);*/
+*
+
+/* Селектор ID */
+
+/*
+#имя id{
+	css параметр;
+	css параметр;
+	…
+	css параметр;
+}
+*/
+/*#menu{
+	color: crimson;
+}*/
+
+/* Разница в приоритетности */
+/* Прироитет */
+/* 1. Порядок записи, при равнозначных селекторах */
+
+/* Уточнение обращением */
+
+/* Комбинация селекторов */
+
+/*span.text {
+	color: red;
+}*/
+
+/* Вложенность и приоритетность */
+
+h1.title{
+		font-family: "BebasNeueRegular", Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		letter-spacing: 0;
+}
+
+
+.contentheading, h1.title {
+	font-family: Arial;
+	font-size: 34px;
+	line-height: 100% !important;
+}
+
+.title{
+	color: #344f58 !important;
+}
+
+h1 {
+	font-size: 24px;
+	vertical-align: center;
+	color: #000000;
+	text-align: left;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+h6{
+	color: #a1bec8;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 320px;
+	font-family: Arial;
+	line-height: 100%;
+	font-weight: 700;
+}
+
+p{
+	color: #6f6f6f;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+ol.numbers{
+	list-style-type: decimal;
+	color: #6f6f6f;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 14px;
+	margin: 15px;
+}
+
+.fontbold{
+	font-weight: 700;
+}
+
+.img,.img11{
+margin: 20px;
+}
+
+p.link{
+	color: #344f58;
+}
+.img-footer-link{
+	margin-left: 190px;
+	margin-top: 40px;
+}
